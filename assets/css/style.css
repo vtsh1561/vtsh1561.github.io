@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    width: 100%;
+    width: 50%;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 .title {
     position: absolute;
     z-index: 100;
+    width: 50%;
 }
 
 #title {
@@ -41,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 .title {
     right: 800px;
     bottom: 1200px;
-    width: 100%;
+    width: 70%;
     max-width: 1000px;
 }
 
@@ -54,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .center {
-    width: 100%;
+    width: 50%;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -66,7 +67,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     text-align: center;
     line-height: 1.1;
-    image.png;
 }
 
 .text_intro {
@@ -92,7 +92,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     text-align: center;
     line-height: 1.1;
-    image.png;
 }
 
 .section {
@@ -137,11 +136,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align:left;
     line-height: 1.4;
     max-width: 700px;
+    width: 10%;
 }
 
 .description {
     position: absolute;
-    right: 500px;
+    right: 510px;
 }
 
 .description {
