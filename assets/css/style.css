@@ -150,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 .plan{
     position: absolute;
     right: 1300px;
+    width: 1000px;
 
 }
 
@@ -208,4 +209,24 @@ h1, h2, h3, h4, h5, h6 {
         right: 350px;
         bottom: -1170px;
     }
+}
+@media (max-width:1340px) {
+    .title{
+        bottom: 530px;
+        right: 200px;
+
+    }
+    .text_intro{
+        font-size: 40px;
+        bottom: 260px;
+        max-width: 400px;
+        right: 460px;
+    }
+    .subtitle{
+        right: 170px;
+    }
+    .plan{
+        width: 800px;
+    }
+    
 }
