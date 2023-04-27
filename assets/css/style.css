@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 600px;
     width: 100%;
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 .subtitle {
@@ -133,15 +134,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
     font-size: 20px;
     font-weight: 700px;
-    text-align:left;
     line-height: 1.4;
-    max-width: 700px;
-    width: 10%;
+    max-width: 500px;
 }
 
 .description {
     position: absolute;
-    right: 510px;
+    right: 530px;
 }
 
 .description {
@@ -149,8 +148,64 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .plan{
-    height: 10px; 
-    width: 20px;
     position: absolute;
-    left: 1px;
+    right: 1300px;
+
+}
+
+@media (max-width:1920px) {
+    .container{
+        max-width: 1000px;
+        text-align: center;
+    }
+    .section_title{
+        text-align: center;
+    }
+    .title{
+        position: absolute;
+        text-align: center;
+        max-width: 1000px;
+        bottom: 850px;
+        right: 430px;
+    }
+    .text_intro{
+        right: 430px;
+        bottom: 500px;
+    }
+    .subtitle{
+        right: 430px;
+    }
+    .description{
+        max-width: 300px;
+        right: 400px;
+
+    }
+    .qr{
+        right: 10px;
+        width: 400px;
+        bottom: -1210px;
+    }
+    .plan{
+        right: 800px;
+    }
+
+}
+
+@media (max-width:1600px) {
+    .title{
+        right: 310px;
+    }
+    .text_intro{
+        right: 310px;
+    }
+    .subtitle{
+        right: 310px;
+    }
+    .plan{
+        right: 550px;
+    }
+    .description{
+        right: 350px;
+        bottom: -1170px;
+    }
 }
