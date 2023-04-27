@@ -166,12 +166,12 @@ h1, h2, h3, h4, h5, h6 {
         position: absolute;
         text-align: center;
         max-width: 1000px;
-        bottom: 850px;
+        bottom: 800px;
         right: 430px;
     }
     .text_intro{
         right: 430px;
-        bottom: 500px;
+        bottom: 420px;
     }
     .subtitle{
         right: 430px;
